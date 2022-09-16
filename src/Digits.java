@@ -11,6 +11,7 @@ class Digits {
         int tenDigit = (num % 100 / 10 + 1) % 10;
         int oneDigit = (num % 10 + 1) % 10;
         System.out.println("Number: " + tenThousandDigit + thousandDigit + hundredDigit + tenDigit + oneDigit);
+        System.out.println("Program done!");
 
     }
 }
